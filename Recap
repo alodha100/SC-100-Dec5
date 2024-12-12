@@ -1,0 +1,260 @@
+1. Zero Trust 
+------------------
+a. Ramp 
+b. Deployment model 
+
+ZT principles 
+---------------
+1. Verify explicitely 
+2. Use Least privilage 
+3. Assume breach 
+
+Pillers 
+--------------
+1. Identity 
+2. Endpoints 
+3. Data 
+4. Network 
+5. Apps 
+6. Infra 
+
+Patterns and Anti-patterns 
+=============================
+SC-900 
+AZ-500 
+SC-300
+SC-200
+SC-400
+SC-100
+
+====================
+3 important frameworks 
+----------------------
+CAF - Cloud adoption framework
+WAF - Well architected framework
+MCSB - Microsoft Cloud Security Baseline 
+
+================================
+CAF - 9 domains 
+-------------------
+1. Strategy 
+2. Planning 
+3. Ready 
+4. Migrate 
+5. Innovate 
+6. Opeartional 
+7. Govern 
+8. Security 
+9. 
+
+WAF 
+===========
+1. Reliability 
+2. Security 
+3. Operational excellence 
+4. Cost optimization 
+5. Performance efficiency 
+
+MCRA 
+---------------
+
+Cyber Kill Chain 
+MITRE framework
+
+SFI - Secure future initiative 
+
+---------------------------------
+Defenders = XDR solutions = Extended Detection and response. 
+==============
+PDIR = Prevention, Detection, Investigation and Resond 
+
+1. Microsoft Defender XDR (Microsoft 365 defender) 
+-----------------------------------------------------
+a. Microsoft Defender for Endpoint = MDE
+b. Microsoft Defender for Identity = MDI 
+c. Microsoft Defender for Cloud Apps = MDCA 
+d. Microsoft Defenders for Office (O365) = MDO 
+
+
+
+2. Microsoft Defender for cloud (ATP) 
+================================
+a. Defender for server 
+b. Defender for apps 
+c. Defender for storage 
+d. Defender for network 
+
+3. Microsoft Defender for IOT 
+4. Microsoft Defender for EASM 
+
+=================================
+Day 2
+
+===========
+1. Recap of day 1 
+2. Ransomeware 
+3. Backup - Backup vault and recovery services vault (ASR) 
+4. MARS agent, MABS - Microsoft azure backup server, DPM - Data protection manager - backup server comes with System center 
+5. Regulatory compliances - Azure policy, Azure initiatives, purview portal - Compliance manager - Compliance score, how to create assessments, Actions - Your actions, mirosoft actions 
+6. Priva - Policy, verify and take actions 
+7. Subject rights request 
+
+Entra id as - Identity as a service 
+
+Entra id Vs AD-DS 
+AADDS - Entra id - ADDS - PAAS service on cloud 
+
+Moderen authtication 
+
+CAP
+--------
+Signals 
+-----------
+1. Location - Based on IP, countries 
+2. Users 
+3. Groups 
+4. Devices 
+5. Cloud applications 
+6. Client application 
+7. Devices states 
+8. Network 
+9. Data 
+10.Session 
+11. Some others options 
+12. Identity protection - User risk and sign-in risks 
+
+Identity Protection 
+======================
+1. user risk 
+-------------
+Compromised credentials 
+
+2. Sign-in risks 
+----------------
+a. Login from unknown location
+b. Impossible travel 
+c. login from anon browsers 
+d. Login from malicious IPs
+e. Login from malicious domains 
+
+======================================
+
+https://mykeyvaultaj123.vault.azure.net/secrets/sqlsecretpassword/f0750d972c2e4433ac3586acca924450
+
+3rd day
+-----------------
+Key vault - HSM - hardware security module 
+
+Digital valuables - 1. Secret 2. Keys 3. Certificate 
+
+PIM - JIT & JEA 
+
+a. Entra roles 
+b. RBAC roles 
+------------
+1. MFA 
+2. Approvals 
+3. Justification 
+4. Ticket 
+
+Access review 
+
+=======================
+SIEM - SIM + SEM  
+Sentinel = SIEM + SOAR 
+Sentinel solution 
+-------------------
+1. Connectors 
+2. Analytical rules 
+3. Hunting queries 
+4. Playbooks 
+5. Workbooks 
+
+
+Analytical rules (Based on KQL) 
+=================
+1. Fusion - Multi-stage 
+2. ML Rules 
+3. Anomoly rules 
+4. Microsoft rules 
+5. Schedule rules = Customizable 
+6. NRT rules = Near real time rule 
+7. Threat detection 
+-------------------------
+MITRE 
+-----
+TTP 
+
+> Defender 
+> posture managment 
+> Security copilot 
+
+4th day 
+===========
+> Defenders
+> Purview 
+> SQL security 
+> Storage security 
+> MDC 
+ 
+MDI 
+=========
+Can be installed on 
+
+1. ADDS 
+2. ADCS 
+3. ADFS 
+
+Azure SQL security 
+-------------------
+1. SQL networking - Firewall 
+2. Encryption at rest - TDE - Server level and DB level 
+3. Encryption in transit - TLS 
+4. Encryption in use - Always encrypted 
+5. Ledger - Digest = hashing of data for integrity 
+6. Auditing 
+7. Data masking 
+8. Data classification 
+9. Defender for cloud for sql  = ATP and Vul assessment 
+10. Authencation - Local SQL authN or Entra managed auth 
+
+Azure Storage security 
+-------------------------
+1. AZCopy 
+2. Storage explorer 
+3. ADF = Azure Data factory 
+4. Az cli 
+5. Powershell 
+---------------------
+1. Networking - firewall 
+2. RBAC 
+3. Access keys 
+4. SAS keys 
+5. Encyrption - Dual encrypted
+6. Encryption in transit 
+7. Legal hold 
+8. Data integrity 
+9. Soft delete 
+10. Blob level access control 
+
+MDE
+---------
+> how to onboard  a device using MDE 
+> how to integrate MDE with MDCA (CASB) 
+> Shadow IT - how to deal with it using MDCA 
+> Software catalog - from MDCA 
+> Sanctioned and Unsantionned application/softwares etc 
+> Explore Purview portal - Data mapping 
+
+>>> a purview service in Azure, you discover data in Azure and classify in the purview portal 
+
+>> How to create SIT - Sensitive information type 
+>> Classify and  Label data 
+>> How to create policies around SIT 
+
+MDC 
+========
+
+
+
+
